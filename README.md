@@ -149,7 +149,7 @@ To:
 Feel free to ⭐️ the repo, fork it, or use it as your own study log.
 You can also watch the playlist and follow along. Learning is better when it shared.
 
-Speaking of sharing, here's some advance courses that might intersting to you.
+Speaking of sharing, here are some advance courses that might intersting to you.
 
 - [Advance JavaScript Crash Course](https://www.youtube.com/watch?v=R9I85RhI7Cg)
 - [Asychronous JavaScript Crash Course](https://www.youtube.com/watch?v=exBgWAIeIeg)
