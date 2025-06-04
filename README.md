@@ -107,7 +107,7 @@ To build a strong foundation in DSA concepts using JavaScript by:
 
 ## 📅 Learning Schedule
 
-I aim to complete **3–5 videos per week**, depending on complexity and available time. Every video will:
+I aim to complete **10–20 videos per week**, depending on complexity and available time. Every video will:
 
 - Be summarized in a markdown file
 - Have a corresponding code snippet (when applicable)
