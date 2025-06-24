@@ -222,3 +222,69 @@ If the `input size` **reduces** by `half` **every iteration** it is:
 Let's quickly talk about
 
 ## Space Complexity
+
+In computer science, **Space Complexity** refers to the `amount of memory space` an algorithm requires to run and produce a result, as a function of input size. This includes memory for variables, data structures, and any temporary storage used during the algorithm's execution.
+
+_**Here's a more detailed explanation:**_
+
+**Input Size:**
+This is the `memory space` required to `store the input data` of the algorithm.
+
+**Auxiliary Space:**
+This refers to the `additional memory space` used by the algorithm during its execution, beyon the input. This could space for temporary variables, data structures like arrays or lists, or any other memory used to process the input and produce the output.
+
+**Total Space Complexity:**
+The `total space complexity` of an algorithm is the sum of its input space and auxiliary space.
+
+**Big-O Notation:**
+Similar to time complexity, space complexity is often expressed using Big-O Notation (e.g., O(1), O(n), O(n^2^)) to describe how the memory usage grows as the input size increases.
+
+_**For Example:**_
+**O(1) - Constant Space:**
+An algorithm that uses a fixed amount of memory regardless of the input size (e.g., swapping two variables).
+
+**O(n) - Linear Space:**
+An algorithm whose memory usage grows linearly with the input size (e.g., Storing an array of n elements).
+
+**O(n^2^) - Quadratic Space:**
+An algorithm whose memory usage grows proportionally to the square of the input size (e.g., using a 2D array where both dimensions are related to the input size).
+
+> _"Understanding **`space complexity`** is crucial for **`optimizing algorithms`** and ensuring they **`can run efficiently`**,especially when dealing with **`large datasets`** or **`limited memory resources`**."_
+
+---
+
+The idea remains the same.
+
+**O(1) - Constant Space:**
+If the algorithm does not need extra memory or memory needed does not depend on the input size the space complexity is constant (E.g., The example, would be sorting algorithms which sort within the array without utilizing additional arrays).
+
+**O(n) - Linear Space:**
+You can also have algorithms with linear space complexity, where the extra space needed grows as the input size grows
+
+**O(logn) - Algarithmic Space:**
+`Algarithmic Space Complexity` in which case the extra space needed grows but not at the same rate as the input size.
+
+Typically, you would find algorithms with these three space complexities. Although it is common to solve with `quadratic time complexity`, `quadratic space complexity` is something try to `avoid`.
+
+---
+
+![Big-O-Complexity-Chart](../imgs/lesson-04-big-o-chart.png)
+
+Here's a graph plotting number of operations vs elements from [bigocheetsheet.com](https://www.bigocheatsheet.com/)
+
+As you can see, O of log n `O(logn)` and O of 1 `O(1)` are very good.
+Whereas, O of 2 power n `O(2^n)` and O of n factorial `O(n!)` are just really bad time complexities that should be avoided when possible.
+
+With that we have now covered the theoretical part of this course.
+
+Time and Space complexity and Big-O Notation are the fundamentals of learning algorithms. Hopefully, we now have a good understanding about them
+
+## Few Key Points to Notes
+
+1. Multiple algorithms exist for the same problem and there is no one right solution. Different algorithms work well under different constraints.
+   - You should understand the problem statement before determining which is better.
+1. The same algorithm with the same programing language can be implemented to different ways.
+   - We now have modern JavaScript features, we can use to simplify the code we write.
+1. When writing programs at work, don't lose sight of the big picture.
+   - If you are writing a function that is called thousands of times every minute, sure go ahead and optimize the code.
+   - Rather than writing clever code, write code that is simple to read and maintain.
