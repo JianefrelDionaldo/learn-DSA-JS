@@ -83,7 +83,7 @@ console.log('After Delete: ', person);
 ```
 
 **Accessing - O(1)**
-If you want to **access the value of a given key, the time complexity is **constant\*\*.
+If you want to access the value of a given key, the time complexity is **constant**.
 
 ```javascript
 // Accessing a property - O(1)
